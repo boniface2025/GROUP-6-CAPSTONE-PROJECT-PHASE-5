@@ -56,13 +56,18 @@ Key steps included:
 
 ### 2.4 Modelling
 Several models were tested with the intent to accurately come up with the best model that forecast treasury bill rates. Both Statistical and machine learning models were used. They include:
+
    1.***Statistical Models***: 
+   
       - Linear Regression(Baseline Model) for establishing linear relationships between t-bill and macroecomic indicators.
       - ARIMA a time-series forecasting for capturing seasonality and important trends.
       - Garch for volatility and variance in t-bill rates. 
+      
    2.***Machine Learning Models***:
+   
       - Random Forest Regressor for capturing nonlinear relationships
       - LightGBM(LGBM) for optimizing predictive performance through boosting.
+      
 ### 2.5 Evaluation
 All the models were evaluated using forecasting and standard regression metrics:
    - ***MAE(Mean Absolute Error)***- measures average prediction error.
@@ -111,10 +116,10 @@ streamlit run app.py
    - Develop a hybrid model that combines statistical and machine learning models to capture temporal dependancies and nonlinear patterns.
    - To enhance more accuracy, we'll incorporate global market indicators and macroeconomic sentiment data.
    - Integrate our model to a financial analytic dashboard.
-## 7. Presentation Slides
-Access the project presentation slides here:
+## 7. Dashboard link
+Access the dashboard link here : https://group-6-capstone-project-phase-5.streamlit.app/
 
-## 7. Contributors
+## 8. Contributors
   1. Hilda Jerotich
   2. Erick Kibugi
   3. Barnice Wandeto
