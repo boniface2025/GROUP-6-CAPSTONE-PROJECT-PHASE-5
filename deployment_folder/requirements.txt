@@ -4,3 +4,4 @@ numpy
 lightgbm
 joblib
 scikit-learn    
+plotly.express 
