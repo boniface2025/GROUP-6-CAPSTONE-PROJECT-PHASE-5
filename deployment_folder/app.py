@@ -8,10 +8,16 @@ import plotly.express as px
 import plotly.graph_objects as go
 import seaborn as sns
 import matplotlib.pyplot as plt
+import os
 
-MODEL_PATH = 'lgbm_model_91day.pkl'
-SCALER_PATH = 'feature_scaler.pkl'
-FEATURES_PATH = 'model_features.pkl'
+# Get the absolute directory where this script is located
+BASE_DIR = os.path.dirname(os.path.realpath(__file__))
+
+# Construct full paths to the model files
+MODEL_PATH = os.path.join(BASE_DIR, 'lgbm_model_91day.pkl')
+SCALER_PATH = os.path.join(BASE_DIR, 'feature_scaler.pkl')
+FEATURES_PATH = os.path.join(BASE_DIR, 'model_features.pkl')
+
 RMSE = 0.3140
 
 @st.cache_resource
