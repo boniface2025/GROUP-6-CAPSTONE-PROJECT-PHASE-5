@@ -109,11 +109,11 @@ streamlit run app.py
    - Interactive Streamlit dashboard for scenario-based forecasting.
      
 ## 5. Tech Stack
-   -***Python***:pandas,numpy,scikit-learn,statsmodels
+   -***Python*** : Pandas,numpy,scikit-learn,statsmodels
    
-   -***Machine Learning***:XGBoost,Random Forest Regressor,LightGBM
+   -***Machine Learning*** : XGBoost,Random Forest Regressor,LightGBM
    
-   -***Visualization***:matplotlib,seaborn,plotly
+   -***Visualization*** : Matplotlib,seaborn,plotly
    
    -***Deployment***:Streamlit
    
