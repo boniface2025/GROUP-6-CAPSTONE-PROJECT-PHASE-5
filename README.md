@@ -65,8 +65,9 @@ Several models were tested with the intent to accurately come up with the best m
       
    2.***Machine Learning Models***:
    
-      - Random Forest Regressor for capturing nonlinear relationships
+      - Random Forest Regressor for capturing nonlinear relationships.
       - LightGBM(LGBM) for optimizing predictive performance through boosting.
+      - XGboost.
       
 ### 2.5 Evaluation
 All the models were evaluated using forecasting and standard regression metrics:
@@ -106,10 +107,14 @@ streamlit run app.py
    - Visualizations showing historical vs predicted T-Bill rates.
    - Forecasting metrics(MAE,RMSE,R2)
    - Interactive Streamlit dashboard for scenario-based forecasting.
+     
 ## 5. Tech Stack
    -***Python***:pandas,numpy,scikit-learn,statsmodels
+   
    -***Machine Learning***:XGBoost,Random Forest Regressor,LightGBM
+   
    -***Visualization***:matplotlib,seaborn,plotly
+   
    -***Deployment***:Streamlit
    
 ## 6. Future Work
