@@ -118,9 +118,17 @@ streamlit run app.py
    -***Deployment***:Streamlit
    
 ## 6. Future Work
-   - Develop a hybrid model that combines statistical and machine learning models to capture temporal dependancies and nonlinear patterns.
-   - To enhance more accuracy, we'll incorporate global market indicators and macroeconomic sentiment data.
-   - Integrate our model to a financial analytic dashboard.
+- Regular Model Updates: Retrain the model periodically to account for changing economic conditions and prevent model drift.
+
+- Expand Data Sources: Incorporate additional variables such as market sentiment, global financial indicators, and policy announcements      for improved accuracy.
+
+- Real-Time Data Pipeline: Automate data collection and model retraining to ensure forecasts reflect the latest market events.
+
+- Model Interpretability: Develop tools or dashboards that explain model predictions to non-technical users.
+
+- Scenario Analysis: Integrate stress-testing and scenario forecasting to help users understand model behavior under extreme market conditions.
+
+
 ## 7. Dashboard link
 Access the dashboard link here : https://group-6-capstone-project-phase-5.streamlit.app/
 
